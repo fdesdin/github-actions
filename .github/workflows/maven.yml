@@ -6,10 +6,12 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Java CI with Maven for entities project
 
 on:
   push:
+    paths:
+      - 'entities/**'
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
