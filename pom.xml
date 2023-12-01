@@ -12,6 +12,7 @@
 
     <!-- Modules Configuration -->
     <modules>
+	<module>entities</module>    
         <module>entities-handler</module>
     </modules>
 
