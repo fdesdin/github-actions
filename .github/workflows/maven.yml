@@ -12,6 +12,7 @@ on:
   push:
     paths:
       - 'entities/**'
+      - 'entities-handler/**'
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
