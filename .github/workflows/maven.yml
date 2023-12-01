@@ -11,7 +11,7 @@ name: Java CI with Maven for entities project
 on:
   push:
     paths:
-      - 'entities/**'
+      - 'entities-handler/**'
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
