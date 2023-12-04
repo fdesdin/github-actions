@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Pull Dependencies from Repository B
+name: Pull Dependencies from Repository A
 
 on:
   push:
