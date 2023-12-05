@@ -6,13 +6,13 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Build entities project only
+name: Build entities-handler project only
 
 on:
   push:
     branches: [ "main" ]
     paths:
-      - 'entities/**/*'
+      - 'entities-handler/**/*'
   pull_request:
     branches: [ "main" ]
 
